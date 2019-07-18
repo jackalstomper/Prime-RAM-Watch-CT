@@ -12,13 +12,13 @@
 
 -- 5.0 Builds --
 
-5.0-9413
+5.0-9413, 10638
 
 
 #### Games Supported 
 
-Metroid Prime 1 		NTSC (0-00)
-Metroid Prime 2: Echoes 	NTSC (0-00)
+Metroid Prime 1 		NTSC (0-00), 
+Metroid Prime 2: Echoes 	NTSC (0-00), 
 Metroid Prime 3: Corruption 	NTSC (0A-0)
 
 *support for the Prime Trilogy Disc, Wii de Asobu, Prime 1 JP, Prime 1 Korean (0-30),
