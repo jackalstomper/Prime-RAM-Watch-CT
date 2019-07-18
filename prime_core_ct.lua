@@ -1,8 +1,6 @@
-package.loaded.shared = nil
 package.loaded.utils = nil
 package.loaded.dolphin = nil
 
-local shared = require "shared"
 local utils = require "utils"
 local dolphin = require "dolphin"
 local intToDouble = utils.intToDouble
