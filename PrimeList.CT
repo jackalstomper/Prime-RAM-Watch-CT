@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="28">
+  <CheatEntries/>
+  <UserdefinedSymbols/>
+  <LuaScript>local name = "prime_window_ct"
+local scriptDir = "C:\\Users\\And\\Desktop\\PrimeWatch"
+
+if package.loaded[name] then
+      -- Not first load; clear cache
+      package.loaded[name] = nil
+else
+      -- First load; add our script directories to the Lua path
+      package.path = package.path .. ";" .. scriptDir .. "\\?.lua"
+      package.path = package.path .. ";" .. scriptDir .. "\\games\\?.lua"
+end
+require(name)
+</LuaScript>
+</CheatTable>
