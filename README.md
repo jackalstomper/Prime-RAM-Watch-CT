@@ -105,18 +105,8 @@ the entire file's contents and paste into a spreadsheet column for further analy
 ### Making your own game specific script
 
 If you are ready to do some scripting of your own, I recommend starting with `sample.lua`. This is the simplest script to understand.
-The other scripts have more structure to them, which can be useful if you have a bunch of possible RAM values to look at or a bunch 
-of different layouts. But to start off, start by using `sample.lua` as a template, modify the code within layoutA or layoutB, and try it out.
-
-
-Tips if (more like when) your script isn't working as expected:
-
-* If your script gets an error, the game will pause and Cheat Engine will make the Memory View and Lua Engine windows pop up. If you try 
-to close the Memory View window, the game will resume and will probably error again immediately. The cleanest way to get out of this is
-to re-open the game process in Cheat Engine. This will disable the Lua script until you click Execute Script again.
-
-* There is a debug-display function included, called `debugDisp`. This lets you show debug values on your display window. Open `utils.lua`
-and locate the part that says `local function debugDisp`. Read the comments above that part to find out how to use `debugDisp`.
+The other scripts have more structure to them, which can be useful if you have a bunch of possible RAM values to look at or a bunch of
+different layouts. But to start off, start by using `sample.lua` as a template, modify the code within layoutA or layoutB, and try it out.
 
 
 # Performance note
@@ -124,19 +114,9 @@ and locate the part that says `local function debugDisp`. Read the comments abov
 Running one of these scripts alongside your game may cause the game to run slower. Generally, it seems to get worse if you've clicked
 Execute Script many times while testing, and in this case closing and re-opening Cheat Engine may make it better. (But I could be wrong.)
 
-If you can identify a particular part of the example scripts that is making things slow, feel free to post a GitHub issue about it, 
-and I'll look into it.
-
-
-# Future plans
-
-* Tutorial video.
-* Make an example script for a PC game that is easier to acquire.
-* Port to MHS (Memory Hacking Software)? It's more popular than Cheat Engine among speedrunners/TASers at this time of writing,
-perhaps for good reason since the UI seems a lot cleaner. However, porting these scripts is dependent on (1) MHS's capacity for customizable
-GUIs, and (2) whether I'm any good at coding in C, which is MHS's scripting language. If anyone else is up for the task, feel free to go for it.
-
 
 # Acknowledgments
 
 Masterjun, for writing the RAM watch script (2013/08/26) that this project was based on: http://pastebin.com/vUCmhwMQ
+
+Tales, for helping answer some questions I had. Some of Tale's other Sonic scripts are what this is heavily based off of.
