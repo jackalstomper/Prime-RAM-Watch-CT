@@ -88,8 +88,8 @@ local layout = {
 	text = text .. "\nJump:   " .. core.getJump().state .. " | " .. string.format("%05.3f", core.getJump().timer)
 	text = text .. "\nSA:     " .. core.getSA().count
 	
-	else 
-	text = "Not a supported game"
+  else 
+  text = text .. "Not a supported game"
   text = text .. core.getGameID()
   text = text .. "\n"
 	end

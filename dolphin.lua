@@ -26,8 +26,8 @@ local dolphin = {}
 -- Start by commenting out which Major Dolphin verison you are using 
 
 --local dolphinMajor = "3.0"
---local dolphinMajor = "4.0"
-local dolphinMajor = "5.0" 
+local dolphinMajor = "4.0"
+--local dolphinMajor = "5.0" 
 
 --Next comment out which specific version of dolphin you are using
 
@@ -36,9 +36,9 @@ local dolphinMajor = "5.0"
 
 -- 4.0 Builds --
 --local dolphinVersion = "4.0-2826"
---local dolphinVersion = "4.0-4191"
 --local dolphinVersion = "4.0-3599"
---local dolphinVersion = "4.0-4222"
+--local dolphinVersion = "4.0-4191"
+local dolphinVersion = "4.0-4222"
 --local dolphinVersion = "4.0-4233"
 --local dolphinVersion = "4.0-4565"
 --local dolphinVersion = "4.0-4577"
@@ -46,7 +46,8 @@ local dolphinMajor = "5.0"
 
 -- 5.0 Builds --
 --local dolphinVersion = "5.0-9413"
-local dolphinVersion = "5.0-10638"
+--local dolphinVersion = "5.0-10638"
+--local dolphinVersion = "5.0-10833"
 
 -- We need to specify if we are using 5.0 dolphin or higher
 -- this is because for 5.0 and higher versions, the starting memory
@@ -95,6 +96,8 @@ elseif dolphinVersion == "5.0-9413" then
   gameRAMStartPointerAddress = 0x00EB0BF8
 elseif dolphinVersion == "5.0-10638" then
   gameRAMStartPointerAddress = 0x00F82528
+elseif dolphinVersion == "5.0-10833" then
+  gameRAMStartPointerAddress = 0x00F8C118
 end
 dolphin.getMajor = dolphinMajor
 dolphin.getVersion = dolphinVersion
