@@ -46,8 +46,7 @@ From here, uncheck the first two boxes for MEM_PRIVATE and MEM_IMAGE.
 Finally check the third box to force Cheat Engine to only scan MEM_MAPPED. 
 Dolphin emulator uses mapped memory for its emulated memory so it's important that we only scan that.
 
-#### (Note: this will mean that we are only scanning mapped memory from here on out so you'll have to 
-change your settings back if you use cheat engine in other applications)
+#### (Note: this will mean that we are only scanning mapped memory from here on out so you'll have to change your settings back if you use cheat engine in other applications)
 
 # How to use
 
