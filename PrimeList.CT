@@ -2,7 +2,7 @@
 <CheatTable CheatEngineTableVersion="28">
   <CheatEntries/>
   <UserdefinedSymbols/>
-  <LuaScript>local name = "prime_window_ct"
+  <LuaScript>local name = "prime_window"
 local scriptDir = "C:\\Users\\And\\Desktop\\PrimeWatch"
 
 if package.loaded[name] then

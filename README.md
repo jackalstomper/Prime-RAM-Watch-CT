@@ -2,18 +2,9 @@
 
 #### Dolphin Emulator 
 
--- 3.0 Builds -- 
+All official or dev builds of Dolphin Emulator should work now :)
 
-3.5-2302-x64
-
--- 4.0 Builds --
-
-4.0-2826, 3599, 4191, 4222, 4233, 4565, 4577, 4654
-
--- 5.0 Builds --
-
-5.0-9413, 10638, 10833
-
+I recommend 4.0-4222 or 5.0-10833+
 
 #### Games Supported 
 
@@ -37,7 +28,7 @@ but with scripting you can get a much more customized display.
 
 # What you'll need
 
-	* The Lua scripts in this repository. Download the ZIP, and extract it somewhere on your computer.
+	* The Lua files in this repository. Download the ZIP, and extract it somewhere on your computer.
 
 	* Cheat Engine https://www.cheatengine.org/downloads.php
 	  These scripts have mainly been tested with Cheat Engine 6.8.3 (64-bit version). 
@@ -46,6 +37,17 @@ but with scripting you can get a much more customized display.
 	  You can find ZeroBrane Studio here https://studio.zerobrane.com/
 	  More simple text editors like Notepad or Notepad++ also work.
 
+# First Usage
+
+Go into Cheat Engine Settings and navigate to Scan Settings
+
+From here, uncheck the first two boxes for MEM_PRIVATE and MEM_IMAGE. 
+
+Finally check the third box to force Cheat Engine to only scan MEM_MAPPED. 
+Dolphin emulator uses mapped memory for its emulated memory so it's important that we only scan that.
+
+#### (Note: this will mean that we are only scanning mapped memory from here on out so you'll have to 
+change your settings back if you use cheat engine in other applications)
 
 # How to use
 
